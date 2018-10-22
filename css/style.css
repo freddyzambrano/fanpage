@@ -17,3 +17,37 @@ a {
     width: 30px;
     margin: 15px;
 }
+.navbar{
+    background-color:black;
+    display:flex;
+    justify-content:space-around;
+}
+
+.navbar a {
+    color:white;
+}
+
+.social{
+    background-color:gray;
+    display:flex;
+    justify-content:space-around;
+}
+
+.gallery{
+    background-color:blue;
+    display:flex;
+    justify-content:space-around;
+}
+
+.thumbnail-image{
+    width:100px;
+    height:100px;
+}
+
+.leftpane{
+    width:30%;
+}
+
+.rightpane{
+    width:70%;
+}
