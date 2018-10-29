@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background: orange; 
 }
 a {
     text-decoration: none;
@@ -44,10 +44,21 @@ a {
     height:100px;
 }
 
-.leftpane{
-    width:30%;
+.aboutMain{
+    display: flex;
+    justify-content:space-around;
 }
 
-.rightpane{
-    width:70%;
+.leftPane{
+    width: 30%;
+}
+
+.rightPane{
+    width: 70%;
+}
+img{
+    max-width: 100%;
+}
+.rightPane img{
+    width: 100%;
 }
